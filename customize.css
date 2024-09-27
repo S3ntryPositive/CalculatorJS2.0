@@ -73,3 +73,237 @@ body
     color:white;
     font-size: 100%;
 }
+
+#btnSin
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnExp
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnPower
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnPlusMinus
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnDivide
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnIn
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnCos
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btn7
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btn8
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btn9
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btnMultiply
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnFactorial
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnTan
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btn4
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btn5
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btn6
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btnMinus
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnRadians
+{
+	height: 5%;
+    width: 12.4%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btn1
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btn2
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btn3
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btnPlus
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnDegrees
+{
+	height: 5%;
+    width: 12.4%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btn0
+{
+	height: 5%;
+    width: 12.4%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btnPeriod
+{
+	height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnEqual
+{
+	height: 5%;
+    width: 6%;
+    background-color: blue;
+    color:white;
+    font-size: 100%;
+}
