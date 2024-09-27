@@ -1,0 +1,75 @@
+body
+{
+    font-family: arial;
+}
+
+#InputResult
+{
+    background-color: black;
+    color:white;
+    height: 5%;
+    width: 39%;
+}
+
+#btnClear
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btnPie
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnSqrt
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnSq
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnPercent
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
+
+#btnBack
+{
+    height: 5%;
+    width: 6%;
+    background-color: #000000c2;
+    color:white;
+    font-size: 100%;
+}
+
+#btnLog
+{
+    height: 5%;
+    width: 6%;
+    background-color: gray;
+    color:white;
+    font-size: 100%;
+}
