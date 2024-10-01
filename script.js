@@ -119,6 +119,7 @@ function Factorial()
 
 function Solve()
 {
+    // the math.evaluate looks at what is in the input box and does the equation
     var Equation = document.getElementById("InputResult").value;
     var Result = math.evaluate(Equation);
     document.getElementById("InputResult").value = Result;
