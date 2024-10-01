@@ -6,6 +6,18 @@ var number1, number2, result;
 function addListener()
 {
 	document.getElementById("InputResult").disabled = false;
+	document.getElementById("btnLog").addEventListener("click", MathLog);
+	document.getElementById("btnLn").addEventListener("click", NLog);
+	document.getElementById("btnExp").addEventListener("click", Exp);
+	document.getElementById("btnRadians").addEventListener("click", Radians);
+	document.getElementById("btnDegrees").addEventListener("click", Degrees);
+	document.getElementById("btnSq").addEventListener("click", Square);
+	document.getElementById("btnPercent").addEventListener("click", Percentage);
+	document.getElementById("btnSqrt").addEventListener("click", Sqrt);
+	document.getElementById("btnPlusMinus").addEventListener("click", Subtract);
+	document.getElementById("btnSin").addEventListener("click", Sin);
+	document.getElementById("btnCos").addEventListener("click", Cos);
+	document.getElementById("btnTan").addEventListener("click", Tan);
     document.getElementById("btnPeriod").addEventListener("click", Period);
     document.getElementById("btnFactorial").addEventListener("click", Factorial);
     document.getElementById("btnPlus").addEventListener("click", Add);
@@ -24,7 +36,52 @@ function addListener()
 	document.getElementById("btn9").addEventListener("click", Nine);
 	document.getElementById("btn0").addEventListener("click", Zero);
 	document.getElementById("btnClear").addEventListener("click", ClearInput);
-    document.getElementById("btnEqual").addEventListener("click", Solve);
+    document.getElementById("btnPie").addEventListener("click", Pie);
+	document.getElementById("btnEqual").addEventListener("click", Solve);
+}
+
+function Square()
+{
+	document.getElementById("InputResult").value += "^2"
+}
+
+function Percentage()
+{
+	document.getElementById("InputResult").value += "%"
+}
+
+function Sqrt()
+{
+	var Input = parseInt(document.getElementById("InputResult").value);
+	var Result = Math.sqrt(Input);
+	document.getElementById("InputResult").value = Result;
+}
+
+
+function Sin()
+{
+	var Input = parseInt(document.getElementById("InputResult").value);
+	var Result = Math.sin(Input);
+	document.getElementById("InputResult").value = Result;
+}
+
+function Cos()
+{
+	var Input = parseInt(document.getElementById("InputResult").value);
+	var Result = Math.cos(Input);
+	document.getElementById("InputResult").value = Result;
+}
+
+function Tan()
+{
+	var Input = parseInt(document.getElementById("InputResult").value);
+	var Result = Math.tan(Input);
+	document.getElementById("InputResult").value = Result;
+}
+
+function Pie()
+{
+	document.getElementById("InputResult").value += Math.PI;
 }
 
 function One()
@@ -117,9 +174,43 @@ function Factorial()
     document.getElementById("InputResult").value += "!";
 }
 
+function Radians()
+{
+	var input = parseFloat(document.getElementById("InputResult").value);
+	var result = input * (Math.PI / 180);
+	document.getElementById("InputResult").value = result;
+}
+
+function Degrees()
+{
+	var input = parseFloat(document.getElementById("InputResult").value);
+	var result = input * (180 / Math.PI);
+	document.getElementById("InputResult").value = result;
+}
+
+function MathLog()
+{
+	var input = parseFloat(document.getElementById("InputResult").value);
+	var result = Math.log10(input)
+	document.getElementById("InputResult").value = result;
+}
+
+function NLog()
+{
+	var input = parseFloat(document.getElementById("InputResult").value);
+	var result = Math.log(input)
+	document.getElementById("InputResult").value = result;
+}
+
+function Exp()
+{
+	var input = parseFloat(document.getElementById("InputResult").value);
+	var result = Math.exp(input)
+	document.getElementById("InputResult").value = result;
+}
+
 function Solve()
 {
-    // the math.evaluate looks at what is in the input box and does the equation
     var Equation = document.getElementById("InputResult").value;
     var Result = math.evaluate(Equation);
     document.getElementById("InputResult").value = Result;
