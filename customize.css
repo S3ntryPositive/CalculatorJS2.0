@@ -24,7 +24,7 @@ body {
     color: white;
 }
 
-#btnPie, #btnSqrt, #btnSq, #btnPercent, #btnLog, #btnSin, #btnExp, #btnPower, #btnPlusMinus, #btnDivide, #btnIn, #btnCos, #btnMultiply, #btnFactorial, #btnTan, #btnMinus, #btnPlus, #btnPeriod {
+#btnPie, #btnSqrt, #btnSq, #btnPercent, #btnLog, #btnSin, #btnExp, #btnPower, #btnPlusMinus, #btnDivide, #btnLn, #btnCos, #btnMultiply, #btnFactorial, #btnTan, #btnMinus, #btnPlus, #btnPeriod {
     background-color: gray;
     height: 5%;
     width: 6%;
